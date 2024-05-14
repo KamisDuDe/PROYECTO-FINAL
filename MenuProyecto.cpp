@@ -21,9 +21,11 @@ int main()
                << endl;
           cout << "\t[4] POO.\n"
                << endl;
-          cout << "\t[5] Herencia y Polimorfismo..\n"
+          cout << "\t[5] Herencia y Polimorfismo.\n"
                << endl;
           cout << "\t[6] Base de datos.\n"
+               << endl;
+          cout << "\t[7] Salir del programa.\n"
                << endl;
 
           cout << "\t  ┌──────────────────────┐" << endl;
@@ -44,16 +46,21 @@ int main()
 
           case 4:
                break;
+
           case 5:
                break;
+
           case 6:
+               break;
+
+          case 7:
                break;
 
           default:
                cout << "Opcion incorrecta." << endl;
                break;
           }
-     } while (Imp != 7);
+     } while (Imp != 8);
 
      system("pause");
      return 0;
