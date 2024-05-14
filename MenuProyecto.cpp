@@ -60,7 +60,7 @@ int main()
                cout << "Opcion incorrecta." << endl;
                break;
           }
-     } while (Imp != 8);
+     } while (Imp != 7);
 
      system("pause");
      return 0;
